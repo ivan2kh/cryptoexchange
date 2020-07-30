@@ -334,6 +334,7 @@ Or install it yourself as:
 | Joyso             | Y       | Y [x]      |         |         | Y           |          | joyso             |       |
 | Jubi              | Y       |            |         |         | Y           |          | jubi              |       |
 | Kairex            | Y       | Y [x]      |         |         | Y           |          | kairex            |       |
+| KickEX            | Y       | Y [x]      | Y       |         | Y           | Y        | kickex            |       |
 | KKex              | Y       | Y [x]      | Y       |         | Y           | Y        | k_kex             |       |
 | Kkcoin            | Y       | Y [x]      | Y       |         | Y           | Y        | kkcoin            |       |
 | Koinex            | Y       |            |         |         | Y           |          | koinex            |       |

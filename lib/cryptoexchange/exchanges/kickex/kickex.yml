@@ -1,0 +1,13 @@
+:pairs:
+  - :base: BTC
+    :target: USDT
+  - :base: ETH
+    :target: BTC
+  - :base: ETH
+    :target: USDT
+  - :base: KICK
+    :target: ETH
+  - :base: KICK
+    :target: BTC
+  - :base: KICK
+    :target: USDT

@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://ext-api.kickex.com/coingecko/api/v1/tickers
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - ext-api.kickex.com
+      User-Agent:
+      - http.rb/5.0.0.pre
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 30 Jul 2020 00:13:41 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d257a2561c482bf44eadf0951a31fa2da1596068021; expires=Sat, 29-Aug-20
+        00:13:41 GMT; path=/; domain=.kickex.com; HttpOnly; SameSite=Lax; Secure
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Headers:
+      - "*"
+      Uwebsockets:
+      - v0.17
+      Cf-Cache-Status:
+      - DYNAMIC
+      Cf-Request-Id:
+      - 043eaa5b5700000b57b793f200000001
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5baae00bb8cc0b57-AMS
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"ticker_id":"ETH_BTC","base_currency":"ETH","target_currency":"BTC","last_price":"0.000269","change_percent":"0","target_volume":"5014.705680","base_volume":"333845.967","high":"","low":"","bid":null,"ask":null},{"ticker_id":"KICK_ETH","base_currency":"KICK","target_currency":"ETH","last_price":"0.00000003","change_percent":"0","target_volume":"56554.21537972","base_volume":"1885140479324","high":"0.00000004","low":"0.00000003","bid":"0.00000003","ask":"0.00000004"},{"ticker_id":"KEX_ETH","base_currency":"KEX","target_currency":"ETH","last_price":"0.0000015","change_percent":"0","target_volume":"99820.41412210763","base_volume":"150602.865","high":"","low":"","bid":null,"ask":null},{"ticker_id":"KEX_BTC","base_currency":"KEX","target_currency":"BTC","last_price":"0.00001","change_percent":"0","target_volume":"7.0241027","base_volume":"504669.84","high":"","low":"","bid":"0.0010001","ask":null},{"ticker_id":"KICK_BTC","base_currency":"KICK","target_currency":"BTC","last_price":"0.00000003","change_percent":"0","target_volume":"824.76591179","base_volume":"729471671697","high":"","low":"","bid":null,"ask":null},{"ticker_id":"KEX_USDT","base_currency":"KEX","target_currency":"USDT","last_price":"102","change_percent":"0","target_volume":"29.6594","base_volume":"1527.984","high":"","low":"","bid":"0.1","ask":null},{"ticker_id":"BTC_USDT","base_currency":"BTC","target_currency":"USDT","last_price":"9020.5","change_percent":"-0.38877174486030574591460200316288877200","target_volume":"157969787.93534091","base_volume":"17501.94648185","high":"9205.1","low":"8776.9","bid":"9068.7","ask":"9070.2"},{"ticker_id":"KICK_USDT","base_currency":"KICK","target_currency":"USDT","last_price":"0.000006","change_percent":"0","target_volume":"94979922.2752200","base_volume":"15829987045870","high":"0.000006","low":"0.000006","bid":"0.000006","ask":"0.0000061"},{"ticker_id":"ETH_USDT","base_currency":"ETH","target_currency":"USDT","last_price":"207.3","change_percent":"55.348424323124722592099422991566799822","target_volume":"66.000000","base_volume":"0.30000","high":"350","low":"220","bid":"350","ask":null},{"ticker_id":"PAX_USDT","base_currency":"PAX","target_currency":"USDT","change_percent":"","target_volume":"","base_volume":"","high":"","low":"","bid":null,"ask":null},{"ticker_id":"BTC_PAX","base_currency":"BTC","target_currency":"PAX","change_percent":"","target_volume":"","base_volume":"","high":"","low":"","bid":null,"ask":null},{"ticker_id":"ETH_PAX","base_currency":"ETH","target_currency":"PAX","change_percent":"","target_volume":"","base_volume":"","high":"","low":"","bid":null,"ask":null},{"ticker_id":"EUR_USDT","base_currency":"EUR","target_currency":"USDT","change_percent":"","target_volume":"","base_volume":"","high":"","low":"","bid":null,"ask":null}]'
+    http_version: 
+  recorded_at: Thu, 30 Jul 2020 00:13:41 GMT
+recorded_with: VCR 4.0.0
